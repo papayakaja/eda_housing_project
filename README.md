@@ -1,51 +1,29 @@
-# ds-project-template
+# Exploratory Data Analysis King County Housing Data
 
-Template for creating ds simple projects
+## Where to buy a cheap and large home
 
-## Requirements
+## Content
 
-- pyenv
-- python==3.11.3
+- Jupyter Notebook with code to fetch the data
+- Jupyter Notebook with my analysis
+- Slides of my presentation
+- requirements file with packages and their versions I uses
+- our assignment and proposed workflow
+- description of column names
 
-## Setup
+### Description
 
-One of the first steps when starting any data science project is to create a virtual environment. For this project you have to create this environment from scratch yourself. However, you should be already familiar with the commands you will need to do so. The general workflow consists of... 
+- overview of homes in King County, Washington
+- assist a buyer to find a home
+- gives info about the condition of houses that fit his requirements 
+- using Python incl. Pandas, Folium etc.
 
-* setting the python version locally to 3.11.3
-* creating a virtual environment using the `venv` module
-* activating your newly created environment 
-* upgrading `pip` (This step is not absolutely necessary, but will save you trouble when installing some packages.)
-* installing the required packages via `pip`
-
-At the end, you want to make sure that people who are interested in your project can create an identical environment on their own computer in order to be able to run your code without running into errors. Therefore you can create a `requirements file` and add it to your repository. You can create such a file by running the following command: 
-
-```bash
-pip freeze > requirements.txt
-```
-
-*Note: In rare case such a requirements file created with `pip freeze` might not ensure that another (especially M1 chip) user can install and execute it properly. This can happen if libraries need to be compiled (e.g. SciPy). Then it also depends on environment variables and the actual system libraries.*
-
-### Unit testing (Optional)
-
-If you write python scripts for your data processing methods, you can also write unit tests. In order to run the tests execute in terminal:
-
-```bash
-pytest
-```
-
-This command will execute all the functions in your project that start with the word **test**.
+The short time frame made it somewhat hard to come up with a nice analysis. In future cases I would dig even deeper and give the potential buyer also some options that don't hit his exact requirements but give me more matching data points to work on and analyse. Nonetheless, I enyojed my first EDA project. :-)
 
 
-### Environment
+### Setup
 
-This repo contains a requirements.txt file with a list of all the packages and dependencies you will need. Before you install the virtual environment, make sure to install postgresql if you haven't done it before.
-
-```bash
-brew update
-brew install postgresql
-```
-
-In order to install the environment you can use the following commands:
+I included a requirements file so you can run your forked and cloned repo in a local environment (works on MacOS, other systems may vary)
 
 ```
 pyenv local 3.11.3
@@ -54,3 +32,4 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+

@@ -1,7 +1,7 @@
 # Column Names and descriptions for King County Data Set
 
 - **id** - unique identified for a house
-- **dateDate** - house was sold
+- **dateDate** - house was sold/ bought
 - **pricePrice** - is prediction target
 - **bedroomsNumber** - # of bedrooms
 - **bathroomsNumber** - # of bathrooms
@@ -9,9 +9,9 @@
 - **sqft_lotsquare** - footage of the lot
 - **floorsTotal** - floors (levels) in house
 - **waterfront** - House which has a view to a waterfront
-- **view** - Has been viewed
-- **condition** - How good the condition is ( Overall )
-- **grade** - overall grade given to the housing unit, based on King County grading system
+- **view** - 0 to 4, how good the view of the property is
+- **condition** - How good the condition is ( Overall ), 0 to 5
+- **grade** - overall grade given to the housing unit, based on King County grading system, 1 to 13
 - **sqft_above** - square footage of house apart from basement
 - **sqft_basement** - square footage of the basement
 - **yr_built** - Built Year
