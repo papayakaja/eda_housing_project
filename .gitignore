@@ -135,8 +135,8 @@ dmypy.json
 # data/*.gsv
 # data/*.json
 
-/data/
-/optional
+data/
+optional/
 
 # models
 models/*.pickle
