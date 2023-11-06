@@ -1,5 +1,7 @@
 # Exploratory Data Analysis King County Housing Data
 
+1st project during my Bootcamp at Spiced Academy 2023
+
 ## Where to buy a cheap and large home
 
 ## Content
